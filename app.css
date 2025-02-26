@@ -1,0 +1,45 @@
+/* General Table Styling */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    text-align: left;
+    border: 1px solid #ddd;
+}
+
+/* Table Headers */
+th {
+    background-color: #0077cc;
+    color: white;
+    padding: 12px;
+    border: 1px solid #005fa3;
+}
+
+/* Table Rows */
+td {
+    padding: 10px;
+    border: 1px solid #ddd;
+}
+
+/* Alternating Row Colors */
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+tr:nth-child(odd) {
+    background-color: #ffffff;
+}
+
+/* Hover Effect */
+tr:hover {
+    background-color: #d0e7ff;
+    transition: 0.2s ease-in-out;
+}
+
+/* Input File Styling */
+input[type="file"] {
+    margin-bottom: 20px;
+    font-size: 16px;
+}
